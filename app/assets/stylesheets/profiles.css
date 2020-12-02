@@ -1,0 +1,65 @@
+@charset "UTF-8";
+#profiles-new form .form-group, #profiles-edit form .form-group, #profiles-create form .form-group, #profiles-update form .form-group {
+  margin: 10px 0;
+}
+
+#profiles-new form .form-group label, #profiles-edit form .form-group label, #profiles-create form .form-group label, #profiles-update form .form-group label {
+  margin-bottom: 5px;
+  display: block;
+}
+
+#profiles-new form .form-group input[type="text"], #profiles-new form .form-group input[type="number"], #profiles-edit form .form-group input[type="text"], #profiles-edit form .form-group input[type="number"], #profiles-create form .form-group input[type="text"], #profiles-create form .form-group input[type="number"], #profiles-update form .form-group input[type="text"], #profiles-update form .form-group input[type="number"] {
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+#profiles-new form .image-preview img, #profiles-edit form .image-preview img, #profiles-create form .image-preview img, #profiles-update form .image-preview img {
+  max-width: 200px;
+}
+
+#profiles-new form .submit-block, #profiles-edit form .submit-block, #profiles-create form .submit-block, #profiles-update form .submit-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15px 0;
+}
+
+#profiles-new form .submit-block .button, #profiles-edit form .submit-block .button, #profiles-create form .submit-block .button, #profiles-update form .submit-block .button {
+  display: inline-block;
+  border-radius: 5%;
+  /* 角丸       */
+  font-size: 18pt;
+  /* 文字サイズ */
+  text-align: center;
+  /* 文字位置   */
+  cursor: pointer;
+  /* カーソル   */
+  padding: 12px 12px;
+  /* 余白       */
+  background: #333;
+  /* 背景色     */
+  color: #ffffff;
+  /* 文字色     */
+  line-height: 1em;
+  /* 1行の高さ  */
+  transition: .3s;
+  /* なめらか変化 */
+  box-shadow: 6px 6px 3px #666666;
+  /* 影の設定 */
+  border: 2px solid #333;
+  /* 枠の指定 */
+}
+
+#profiles-new form .submit-block .button:hover, #profiles-edit form .submit-block .button:hover, #profiles-create form .submit-block .button:hover, #profiles-update form .submit-block .button:hover {
+  box-shadow: none;
+  /* カーソル時の影消去 */
+  color: #333;
+  /* 背景色     */
+  background: #ffffff;
+  /* 文字色     */
+}
